@@ -4,8 +4,8 @@
         display:flex;
         flex-direction:vertical;
         justify-content:center;
-        background:blue;
-        color:white;
+        background: #6592E6;
+        color: white;
     }
 </style>
 

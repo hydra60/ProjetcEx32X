@@ -1,21 +1,25 @@
+<style>
+    .navContainer{
+        width:100%;
+        height: 10%;
+        background: #6592E6;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+    .navContainer >div>a {
+        color:white;
+    }
 
-<section class="menu menu2 cid-sKNPybScCd" once="menu" id="menu2-0">
-    <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                        <img src="./assets/assets/images/fcpn-blue-96x96.png" alt="Mobirise" style="height: 3rem;">
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobiri.se">FCPN</a></span>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="/fcpn/"><span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>
-                            Principal</a></li><li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mobi-mbri mobi-mbri-responsive-2 mbr-iconfont mbr-iconfont-btn"></span>Carreras</a><div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="/fcpn/estadistica/" aria-expanded="false">Estadistica</a><a class="text-black dropdown-item display-4" href="/fcpn/fisica/" aria-expanded="false">Fisica</a><a class="text-black dropdown-item display-4" href="/fcpn/informatica/">Informatica</a></div></li>  
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="#" aria-expanded="true"><span class="mobi-mbri mobi-mbri-users mbr-iconfont mbr-iconfont-btn"></span>Contacts</a>
-                    </li></ul>
-                
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="./login/"><span class="mobi-mbri mobi-mbri-paper-plane mbr-iconfont mbr-iconfont-btn"></span>Iniciar Sesion</a></div>
-            </div>
-        </div>
-    </nav>
-</section>
+</style>
+<nav class="navContainer">
+        <img src="./assets/assets/images/fcpn-blue-96x96.png" alt="fcpn" style="width: 3rem;">      
+        <div><a href="../index.php"> Home </a> </div>
+        <div><a href="./estadistica/index.php"> Estadistica </a></div>
+        <div><a href="./fisica/index.php"> Fisica </a></div>
+        <div><a href="./informatica/index.php"> Informatica</a></div>
+        <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="./login/"><span class="mobi-mbri mobi-mbri-paper-plane mbr-iconfont mbr-iconfont-btn"></span>Iniciar Sesion</a></div>
+</nav>
