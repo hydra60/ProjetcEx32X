@@ -20,16 +20,6 @@ Universidad Mayor de San Andrés</p>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-6">
-                <div class="card-wrapper">
-                    <div class="card-box align-left">
-                        <h4 class="card-title mbr-fonts-style mb-4 display-2"><strong>EDUCACION</strong></h4>
-                        <p class="mbr-text mbr-fonts-style mb-4 display-7">
-                            En nuestra Facultad podras encontrar&nbsp;Intercambio científico, técnico y cultural en las ciencias puras y naturales con el entorno social.<br><br><br></p>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6">
                 <div class="item mbr-flex">
                     <div class="icon-box">
                         <span class="mbr-iconfont mbrib-database"></span>
@@ -56,6 +46,16 @@ Universidad Mayor de San Andrés</p>
                         <h4 class="icon-title mbr-black mbr-fonts-style display-7">
                             <strong>Maestria</strong></h4>
                         <h5 class="icon-text mbr-black mbr-fonts-style display-4">La maestría en ciencias tiene como finalidad la de otorgar al graduado las condiciones para desarrollar estudios que demuestren el dominio de los instrumentos conceptuales y metodológicos esenciales en el área de formación académica.&nbsp;</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mbr-fonts-style mb-4 display-2"><strong>EDUCACION</strong></h4>
+                        <p class="mbr-text mbr-fonts-style mb-4 display-7">
+                            En nuestra Facultad podras encontrar&nbsp;Intercambio científico, técnico y cultural en las ciencias puras y naturales con el entorno social.<br><br><br></p>
+                        
                     </div>
                 </div>
             </div>

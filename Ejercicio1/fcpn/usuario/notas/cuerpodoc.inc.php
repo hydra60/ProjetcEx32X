@@ -4,17 +4,30 @@
     $sql = "SELECT DISTINCT sigla FROM nota";
     $res = mysqli_query($con, $sql);
 ?>
+ <style>
+        .container__titleNotas{
+            margin: 2%;
+            border: 1px solid black;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 5% 0% 5% 10%;
+            justify-content: center;
+            aling-content:center;
+        }
+        .container__table{
+            background: blue;
+            color:white;
+        }
+    </style>
+    <section class="container__titleNotas">
+        <h4 >Promedios Globales:</h4>
+        <p >Docente: <strong><?php echo $_SESSION['nombre'];?></strong><br>CI: <strong><?php echo $_SESSION['ci'];?></strong></p>
+
+    </section>
         <section class="content6 cid-stzCj4uOct" id="content6-w">
-            <div class="container" style="padding-top: 50px; padding-bottom: 50px;">
-                <div class="row justify-content-center">
-                    <div class="alert alert-primary" role="alert" style="background-color: #2e2e2e ; width: 500px;">
-                        <h4 class="alert-heading" style="color:#ffffff;">Promedios Globales:</h4>
-                        <p style="color:#ffffff;">Docente: <strong><?php echo $_SESSION['nombre'];?></strong><br>CI: <strong><?php echo $_SESSION['ci'];?></strong></p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
                     <table class="table table-striped">
-                        <thead class="thead-dark">
+                        <thead class="container__table">
                             <tr>
                                 <th scope="col">Sigla</th>
                                 <th scope="col"><?php echo $depto[0];?></th>
@@ -55,6 +68,4 @@
 ?>
                         </tbody>
                     </table>
-                </div>
-            </div>
         </section>
