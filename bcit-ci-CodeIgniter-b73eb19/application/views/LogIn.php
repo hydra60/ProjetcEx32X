@@ -12,11 +12,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</style>
 </head>
 <body>	
-	<h1>Log In</h1> <br>
+	
+	<h1>Log In</h1> 
+	<br>
+
 	<?php 
-		echo site_url('AltasBajas.php'); 
+		echo site_url('AltasBajas'); 
 	?>
-	<form method="GET" action="http://localhost/Ejercicio5/bcit-ci-CodeIgniter-b73eb19/index.php/AltasBajas" >
+	<form method="GET" action="<?php echo site_url('AltasBajas')?>" >
 		<input type="text" name="nombre" value=""> <br>
 		<input type="text" name="pwd" value=""> <br>
 		<input type="submit" value="LogIn">

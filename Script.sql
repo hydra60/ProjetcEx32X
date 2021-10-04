@@ -24,12 +24,12 @@ Create table Docente(
 );
 create table Nota(
     sigla varchar(10) not null,
-    /*ci int not null,*/
+    ci int not null,
     nota1 float,
     nota2 float,
     nota3 float,
     notaFinal float,
-    PRIMARY KEY (sigla),
+    PRIMARY KEY (sigla,ci),
 );
 
 create table contiene(

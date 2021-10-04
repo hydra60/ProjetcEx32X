@@ -3,14 +3,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class AltasBajas extends CI_Controller {
 
-	public function index()
-	{
+	public function index(){
+		
 		$nombre = $_GET['nombre'];
 		$pwd = $_GET['pwd'];
 		$data['nombreDocente'] = $nombre;
 		$data['contrasenia'] = $pwd;
+		$this->load->model('Docente_model');
 		$this->load->view('AltasBajas', $data);
 	}
-
-	
 }
+?>
