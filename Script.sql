@@ -16,12 +16,12 @@ create table usuario(
     FOREIGN KEY (ci) REFERENCES Persona(ci)
 );
 Create table Docente(
-   ci int not null,
+    ci int not null,
     usuario varchar(50),
     pwd varchar(100),
     PRIMARY KEY (ci),
     FOREIGN KEY (ci) REFERENCES Persona(ci)
-   );
+);
 create table Nota(
     sigla varchar(10) not null,
     /*ci int not null,*/
@@ -38,8 +38,7 @@ create table contiene(
     sigla varchar(10) not null,
     status varchar(4),
     FOREIGN KEY (ci_usuario) REFERENCES usuario(ci),
-    FOREIGN KEY (ci_docente) REFERENCES Persona(ci)
+    FOREIGN KEY (ci_docente) REFERENCES Persona(ci),
     FOREIGN KEY (sigla) REFERENCES Nota(sigla)
 
-);
 );
